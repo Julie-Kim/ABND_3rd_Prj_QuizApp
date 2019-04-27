@@ -30,7 +30,7 @@
 
         <include layout="@layout/question_number_nine" />
 
-        <!--<include layout="@layout/question_number_ten" />-->
+        <include layout="@layout/question_number_ten" />
 
         <Button
             style="@style/ButtonText"

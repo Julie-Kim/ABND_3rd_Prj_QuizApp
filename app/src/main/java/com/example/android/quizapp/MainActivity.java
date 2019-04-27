@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 return QUESTION_NUMBER_9_ANSWER.equals(editText.getText().toString());
 
             case 10:
+                radioButton = findViewById(R.id.q10_answer4);
+                return radioButton.isChecked();
 
             default:
                 return false;

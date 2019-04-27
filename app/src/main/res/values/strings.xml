@@ -63,6 +63,15 @@
 
     <string name="which_number_question">Which number makes the equation true?</string>
     <string name="quiz_09_expression"> + 8 = 14 + 6</string>
+    
+    <string name="what_color_question">What color is the sixth square? Start counting from the left.</string>
+    <string name="color_table">Color table</string>
+    <string name="red">red</string>
+    <string name="orange">orange</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="purple">purple</string>
 
     <string name="result">Result</string>
     <string name="result_o">O</string>

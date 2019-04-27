@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/question_margin_bottom"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/QuestionNumberText"
+            android:text="@string/quiz_10_dot" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/what_color_question" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/color_table_image_width"
+        android:layout_height="@dimen/color_table_image_height"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/color_table"
+        android:padding="@dimen/default_margin"
+        android:scaleType="centerInside"
+        android:src="@drawable/color_palette" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/answer_margin_start_end"
+        android:layout_marginEnd="@dimen/answer_margin_start_end"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q10_answer1"
+            style="@style/AnswerText"
+            android:text="@string/red" />
+
+        <RadioButton
+            android:id="@+id/q10_answer2"
+            style="@style/AnswerText"
+            android:text="@string/orange" />
+
+        <RadioButton
+            android:id="@+id/q10_answer3"
+            style="@style/AnswerText"
+            android:text="@string/yellow" />
+
+        <RadioButton
+            android:id="@+id/q10_answer4"
+            style="@style/AnswerText"
+            android:text="@string/green" />
+
+        <RadioButton
+            android:id="@+id/q10_answer5"
+            style="@style/AnswerText"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/q10_answer6"
+            style="@style/AnswerText"
+            android:text="@string/purple" />
+
+    </RadioGroup>
+
+</LinearLayout>

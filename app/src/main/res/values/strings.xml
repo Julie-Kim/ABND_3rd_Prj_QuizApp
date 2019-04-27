@@ -2,16 +2,27 @@
     <string name="app_name">QuizApp</string>
 
     <string name="quiz">Quiz</string>
-    <string name="quiz_01">Q1.</string>
-    <string name="quiz_02">Q2.</string>
-    <string name="quiz_03">Q3.</string>
-    <string name="quiz_04">Q4.</string>
-    <string name="quiz_05">Q5.</string>
-    <string name="quiz_06">Q6.</string>
-    <string name="quiz_07">Q7.</string>
-    <string name="quiz_08">Q8.</string>
-    <string name="quiz_09">Q9.</string>
-    <string name="quiz_10">Q10.</string>
+    <string name="quiz_01_dot">Q1.</string>
+    <string name="quiz_02_dot">Q2.</string>
+    <string name="quiz_03_dot">Q3.</string>
+    <string name="quiz_04_dot">Q4.</string>
+    <string name="quiz_05_dot">Q5.</string>
+    <string name="quiz_06_dot">Q6.</string>
+    <string name="quiz_07_dot">Q7.</string>
+    <string name="quiz_08_dot">Q8.</string>
+    <string name="quiz_09_dot">Q9.</string>
+    <string name="quiz_10_dot">Q10.</string>
+
+    <string name="quiz_01">Q1</string>
+    <string name="quiz_02">Q2</string>
+    <string name="quiz_03">Q3</string>
+    <string name="quiz_04">Q4</string>
+    <string name="quiz_05">Q5</string>
+    <string name="quiz_06">Q6</string>
+    <string name="quiz_07">Q7</string>
+    <string name="quiz_08">Q8</string>
+    <string name="quiz_09">Q9</string>
+    <string name="quiz_10">Q10</string>
 
     <string name="submit">Submit</string>
     <string name="correct_number">Number of correct answer: %d</string>
@@ -38,5 +49,9 @@
     <string name="quiz_04_answer_01">10 : 10</string>
     <string name="quiz_04_answer_02">02 : 10</string>
     <string name="perfect">Perfect! </string>
+
+    <string name="result">Result</string>
+    <string name="result_o">O</string>
+    <string name="result_x">X</string>
 
 </resources>

@@ -9,4 +9,9 @@
     <color name="question_number_text_color">#0D47A1</color>
     <color name="question_text_color">#000051</color>
     <color name="button_text_color">#E8EAF6</color>
+
+    <color name="table_title_background_color">#D1C4E9</color>
+    <color name="table_title_text_color">#311B92</color>
+    <color name="table_result_background_color">#FFEBEE</color>
+    <color name="table_result_text_color">#B71C1C</color>
 </resources>

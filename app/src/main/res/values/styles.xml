@@ -52,6 +52,32 @@
         <item name="android:textColor">@color/button_text_color</item>
         <item name="android:textSize">@dimen/button_text_size</item>
         <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/question_margin_bottom</item>
+    </style>
+
+    <style name="TableQuizNumberText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/table_text_size</item>
+        <item name="android:background">@color/table_title_background_color</item>
+        <item name="android:textColor">@color/table_title_text_color</item>
+        <item name="android:layout_margin">@dimen/table_column_margin</item>
+    </style>
+
+    <style name="TableQuizResultText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/table_result_size</item>
+        <item name="android:background">@color/table_result_background_color</item>
+        <item name="android:textColor">@color/table_result_text_color</item>
+        <item name="android:layout_margin">@dimen/table_column_margin</item>
     </style>
 
 </resources>

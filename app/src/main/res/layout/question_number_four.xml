@@ -14,7 +14,7 @@
 
         <TextView
             style="@style/QuestionNumberText"
-            android:text="@string/quiz_04" />
+            android:text="@string/quiz_04_dot" />
 
         <TextView
             style="@style/QuestionText"
@@ -26,10 +26,10 @@
         android:layout_width="@dimen/clock_image_size"
         android:layout_height="@dimen/clock_image_size"
         android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/clock"
         android:padding="@dimen/default_margin"
-        android:src="@drawable/clock_10_10"
         android:scaleType="centerInside"
-        android:contentDescription="@string/clock" />
+        android:src="@drawable/clock_10_10" />
 
     <RadioGroup
         android:layout_width="match_parent"

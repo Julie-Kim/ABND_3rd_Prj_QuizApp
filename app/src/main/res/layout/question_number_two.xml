@@ -14,7 +14,7 @@
 
         <TextView
             style="@style/QuestionNumberText"
-            android:text="@string/quiz_02" />
+            android:text="@string/quiz_02_dot" />
 
         <TextView
             style="@style/QuestionText"

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#bbdefb</color>
-    <color name="colorPrimaryDark">#8aacc8</color>
+    <color name="colorPrimary">#BBDEFB</color>
+    <color name="colorPrimaryDark">#8AACC8</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="button_color">#0D47A1</color>
 
     <color name="app_background">#E3F2FD</color>
+    <color name="question_number_text_color">#0D47A1</color>
+    <color name="question_text_color">#000051</color>
+    <color name="button_text_color">#E8EAF6</color>
 </resources>

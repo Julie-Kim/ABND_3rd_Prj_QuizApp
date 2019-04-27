@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/question_margin_bottom"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/QuestionNumberText"
+            android:text="@string/quiz_04" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/what_time_question" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/clock_image_size"
+        android:layout_height="@dimen/clock_image_size"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/default_margin"
+        android:src="@drawable/clock_10_10"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/clock" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/answer_margin_start_end"
+        android:layout_marginEnd="@dimen/answer_margin_start_end"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q4_answer1"
+            style="@style/AnswerText"
+            android:text="@string/quiz_04_answer_01" />
+
+        <RadioButton
+            android:id="@+id/q4_answer2"
+            style="@style/AnswerText"
+            android:text="@string/quiz_04_answer_02" />
+
+    </RadioGroup>
+
+</LinearLayout>

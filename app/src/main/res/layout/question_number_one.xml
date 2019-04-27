@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/question_margin_bottom"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/QuestionNumberText"
+            android:text="@string/quiz_01" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/which_words_true_question" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/StatementText"
+        android:text="@string/quiz_statement_01" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/answer_margin_start_end"
+        android:layout_marginEnd="@dimen/answer_margin_start_end"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q1_answer1"
+            style="@style/AnswerText"
+            android:text="@string/quiz_01_answer_01" />
+
+        <RadioButton
+            android:id="@+id/q1_answer2"
+            style="@style/AnswerText"
+            android:text="@string/quiz_01_answer_02" />
+
+        <RadioButton
+            android:id="@+id/q1_answer3"
+            style="@style/AnswerText"
+            android:text="@string/quiz_01_answer_03" />
+
+    </RadioGroup>
+
+</LinearLayout>

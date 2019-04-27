@@ -11,7 +11,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <include layout="@layout/question_number_one" />
 
+        <include layout="@layout/question_number_two" />
+
+        <include layout="@layout/question_number_three" />
+
+        <include layout="@layout/question_number_four" />
+
+        <Button
+            style="@style/ButtonText"
+            android:onClick="onSubmitButtonClick"
+            android:text="@string/submit" />
 
     </LinearLayout>
 

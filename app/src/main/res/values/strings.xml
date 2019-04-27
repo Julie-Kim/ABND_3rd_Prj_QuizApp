@@ -2,6 +2,41 @@
     <string name="app_name">QuizApp</string>
 
     <string name="quiz">Quiz</string>
+    <string name="quiz_01">Q1.</string>
+    <string name="quiz_02">Q2.</string>
+    <string name="quiz_03">Q3.</string>
+    <string name="quiz_04">Q4.</string>
+    <string name="quiz_05">Q5.</string>
+    <string name="quiz_06">Q6.</string>
+    <string name="quiz_07">Q7.</string>
+    <string name="quiz_08">Q8.</string>
+    <string name="quiz_09">Q9.</string>
+    <string name="quiz_10">Q10.</string>
+
+    <string name="submit">Submit</string>
+    <string name="correct_number">Number of correct answer: %d</string>
 
     <string name="which_words_true_question">Which words make this statement true?</string>
+    <string name="quiz_statement_01">72 __________ 78</string>
+    <string name="quiz_01_answer_01">is greater than</string>
+    <string name="quiz_01_answer_02">is less than</string>
+    <string name="quiz_01_answer_03">is equal to</string>
+
+    <string name="which_odd_number_comes_question">Which odd number comes right after 14?</string>
+    <string name="answer_hint_text">Enter the answer</string>
+
+    <string name="select_same_result">Select the formulas with the same result.</string>
+    <string name="quiz_statement_03">15 + 3</string>
+    <string name="quiz_03_answer_01">14 + 4</string>
+    <string name="quiz_03_answer_02">10 + 9</string>
+    <string name="quiz_03_answer_03">9 + 9</string>
+    <string name="quiz_03_answer_04">4 + 11</string>
+    <string name="quiz_03_answer_05">5 + 9</string>
+
+    <string name="what_time_question">What time does the clock show?</string>
+    <string name="clock">clock</string>
+    <string name="quiz_04_answer_01">10 : 10</string>
+    <string name="quiz_04_answer_02">02 : 10</string>
+    <string name="perfect">Perfect! </string>
+
 </resources>

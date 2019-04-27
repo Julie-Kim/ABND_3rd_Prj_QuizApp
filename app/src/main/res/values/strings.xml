@@ -36,7 +36,7 @@
     <string name="which_odd_number_comes_question">Which odd number comes right after 14?</string>
     <string name="answer_hint_text">Enter the answer</string>
 
-    <string name="select_same_result">Select the formulas with the same result.</string>
+    <string name="select_same_result">Select all the formulas with the same result.</string>
     <string name="quiz_statement_03">15 + 3</string>
     <string name="quiz_03_answer_01">14 + 4</string>
     <string name="quiz_03_answer_02">10 + 9</string>
@@ -53,6 +53,8 @@
     <string name="what_shape_comes_question">What shape comes next?</string>
     <string name="heart_shape">Heart shape</string>
     <string name="spade_shape">Spade shape</string>
+
+    <string name="select_equal_parts">Select all the pictures that shows equal parts.</string>
 
     <string name="result">Result</string>
     <string name="result_o">O</string>

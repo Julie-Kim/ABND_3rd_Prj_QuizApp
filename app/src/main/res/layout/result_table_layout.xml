@@ -38,6 +38,10 @@
                 style="@style/TableQuizNumberText"
                 android:text="@string/quiz_05" />
 
+            <TextView
+                style="@style/TableQuizNumberText"
+                android:text="@string/quiz_06" />
+
         </TableRow>
 
         <TableRow>
@@ -64,6 +68,11 @@
 
             <TextView
                 android:id="@+id/result_05"
+                style="@style/TableQuizResultText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/result_06"
                 style="@style/TableQuizResultText"
                 android:text="" />
 

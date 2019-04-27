@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/question_margin_bottom"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/QuestionNumberText"
+            android:text="@string/quiz_06_dot" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/select_equal_parts" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/StatementText"
+        android:text="@string/quiz_statement_03" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/answer_margin_start_end"
+        android:layout_marginEnd="@dimen/answer_margin_start_end">
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/q6_answer1"
+                style="@style/AnswerText"
+                android:layout_marginEnd="@dimen/answer_margin_end"
+                android:layout_marginRight="@dimen/answer_margin_end"
+                android:drawableEnd="@drawable/pizza_01"
+                android:drawableRight="@drawable/pizza_01" />
+
+            <CheckBox
+                android:id="@+id/q6_answer2"
+                style="@style/AnswerText"
+                android:drawableEnd="@drawable/pizza_02"
+                android:drawableRight="@drawable/pizza_02" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/q6_answer3"
+                style="@style/AnswerText"
+                android:layout_marginEnd="@dimen/answer_margin_end"
+                android:layout_marginRight="@dimen/answer_margin_end"
+                android:drawableEnd="@drawable/pizza_03"
+                android:drawableRight="@drawable/pizza_03" />
+
+            <CheckBox
+                android:id="@+id/q6_answer4"
+                style="@style/AnswerText"
+                android:drawableEnd="@drawable/pizza_04"
+                android:drawableRight="@drawable/pizza_04" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

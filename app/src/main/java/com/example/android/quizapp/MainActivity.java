@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int TOTAL_QUESTION_NUMBERS = 4;
+    private static final int TOTAL_QUESTION_NUMBERS = 5;
     private static final String QUESTION_NUMBER_2_ANSWER = "15";
 
     private SparseBooleanArray mQuizResult = new SparseBooleanArray();
@@ -45,36 +45,46 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setCustomView(actionbar);
     }
 
-    private boolean isQuestionNumberOneCorrect() {
-        RadioButton radioButton = findViewById(R.id.q1_answer2);
-        return radioButton.isChecked();
-    }
+    private boolean isCorrectAnswer(int questionNumber) {
+        RadioButton radioButton;
 
-    private boolean isQuestionNumberTwoCorrect() {
-        EditText editText = findViewById(R.id.q2_answer_text);
-        return QUESTION_NUMBER_2_ANSWER.equals(editText.getText().toString());
-    }
+        switch (questionNumber) {
+            case 1:
+                radioButton = findViewById(R.id.q1_answer2);
+                return radioButton.isChecked();
 
-    private boolean isQuestionNumberThreeCorrect() {
-        CheckBox checkBoxAnswer01 = findViewById(R.id.q3_answer1);
-        CheckBox checkBoxAnswer02 = findViewById(R.id.q3_answer2);
-        CheckBox checkBoxAnswer03 = findViewById(R.id.q3_answer3);
-        CheckBox checkBoxAnswer04 = findViewById(R.id.q3_answer4);
-        CheckBox checkBoxAnswer05 = findViewById(R.id.q3_answer5);
-        return checkBoxAnswer01.isChecked() && checkBoxAnswer03.isChecked()
-                && !checkBoxAnswer02.isChecked() && !checkBoxAnswer04.isChecked() && !checkBoxAnswer05.isChecked();
-    }
+            case 2:
+                EditText editText = findViewById(R.id.q2_answer_text);
+                return QUESTION_NUMBER_2_ANSWER.equals(editText.getText().toString());
 
-    private boolean isQuestionNumberFourCorrect() {
-        RadioButton radioButton = findViewById(R.id.q4_answer1);
-        return radioButton.isChecked();
+            case 3:
+                CheckBox checkBoxAnswer01 = findViewById(R.id.q3_answer1);
+                CheckBox checkBoxAnswer02 = findViewById(R.id.q3_answer2);
+                CheckBox checkBoxAnswer03 = findViewById(R.id.q3_answer3);
+                CheckBox checkBoxAnswer04 = findViewById(R.id.q3_answer4);
+                CheckBox checkBoxAnswer05 = findViewById(R.id.q3_answer5);
+                return checkBoxAnswer01.isChecked() && checkBoxAnswer03.isChecked()
+                        && !checkBoxAnswer02.isChecked() && !checkBoxAnswer04.isChecked() && !checkBoxAnswer05.isChecked();
+
+            case 4:
+                radioButton = findViewById(R.id.q4_answer1);
+                return radioButton.isChecked();
+
+            case 5:
+                radioButton = findViewById(R.id.q5_answer2);
+                return radioButton.isChecked();
+
+            default:
+                return false;
+        }
     }
 
     public void onSubmitButtonClick(View view) {
-        mQuizResult.append(getArrayIndex(1), isQuestionNumberOneCorrect());
-        mQuizResult.append(getArrayIndex(2), isQuestionNumberTwoCorrect());
-        mQuizResult.append(getArrayIndex(3), isQuestionNumberThreeCorrect());
-        mQuizResult.append(getArrayIndex(4), isQuestionNumberFourCorrect());
+        mQuizResult.append(getArrayIndex(1), isCorrectAnswer(1));
+        mQuizResult.append(getArrayIndex(2), isCorrectAnswer(2));
+        mQuizResult.append(getArrayIndex(3), isCorrectAnswer(3));
+        mQuizResult.append(getArrayIndex(4), isCorrectAnswer(4));
+        mQuizResult.append(getArrayIndex(5), isCorrectAnswer(5));
 
         showResultMessage(getNumberOfCorrectAnswer());
         showResultTable();
@@ -118,6 +128,9 @@ public class MainActivity extends AppCompatActivity {
         TextView resultNumberFour = findViewById(R.id.result_04);
         resultNumberFour.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(4))));
 
+        TextView resultNumberFive = findViewById(R.id.result_05);
+        resultNumberFive.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(5))));
+
         findViewById(R.id.result_table).setVisibility(View.VISIBLE);
 
         scrollToBottom();
@@ -131,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         final ScrollView scrollView = findViewById(R.id.scroll_view);
         scrollView.post(new Runnable() {
             public void run() {
-                scrollView.smoothScrollTo(0, scrollView.getBottom());
+                scrollView.fullScroll(View.FOCUS_DOWN);
             }
         });
     }

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/question_margin_bottom"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/QuestionNumberText"
+            android:text="@string/quiz_05_dot" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/what_shape_comes_question" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/card_image_size"
+            android:layout_height="@dimen/card_image_size"
+            android:contentDescription="@string/clock"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/heart_card" />
+
+        <ImageView
+            android:layout_width="@dimen/card_image_size"
+            android:layout_height="@dimen/card_image_size"
+            android:contentDescription="@string/clock"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/spade_card" />
+
+        <ImageView
+            android:layout_width="@dimen/card_image_size"
+            android:layout_height="@dimen/card_image_size"
+            android:contentDescription="@string/clock"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/heart_card" />
+
+        <ImageView
+            android:layout_width="@dimen/card_image_size"
+            android:layout_height="@dimen/card_image_size"
+            android:contentDescription="@string/clock"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/spade_card" />
+
+        <ImageView
+            android:layout_width="@dimen/card_image_size"
+            android:layout_height="@dimen/card_image_size"
+            android:contentDescription="@string/clock"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/heart_card" />
+
+        <ImageView
+            android:layout_width="@dimen/card_image_size"
+            android:layout_height="@dimen/card_image_size"
+            android:contentDescription="@string/clock"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/empty_card" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/answer_margin_start_end"
+        android:layout_marginEnd="@dimen/answer_margin_start_end"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/q5_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/answer_padding_start"
+            android:layout_marginEnd="@dimen/answer_margin_end"
+            android:contentDescription="@string/heart_shape"
+            android:src="@drawable/heart_card" />
+
+        <RadioButton
+            android:id="@+id/q5_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/answer_padding_start"
+            android:layout_marginEnd="@dimen/answer_padding_start"
+            android:contentDescription="@string/spade_shape"
+            android:src="@drawable/spade_card" />
+
+    </RadioGroup>
+
+</LinearLayout>

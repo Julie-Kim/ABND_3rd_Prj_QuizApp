@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="@dimen/card_image_size"
+        android:height="@dimen/card_image_size">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/card_background_color" />
+            <corners
+                android:bottomLeftRadius="@dimen/card_radius"
+                android:bottomRightRadius="@dimen/card_radius"
+                android:topLeftRadius="@dimen/card_radius"
+                android:topRightRadius="@dimen/card_radius" />
+            <stroke
+                android:width="@dimen/card_stroke_width"
+                android:color="@color/card_stroke_dash_color"
+                android:dashGap="@dimen/card_stroke_dash_gap"
+                android:dashWidth="@dimen/card_stroke_dash_width"/>
+        </shape>
+    </item>
+
+</layer-list>

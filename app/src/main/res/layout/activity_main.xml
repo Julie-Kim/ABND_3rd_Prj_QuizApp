@@ -20,6 +20,8 @@
 
         <include layout="@layout/question_number_four" />
 
+        <include layout="@layout/question_number_five" />
+
         <Button
             style="@style/ButtonText"
             android:onClick="onSubmitButtonClick"

@@ -48,7 +48,11 @@
     <string name="clock">clock</string>
     <string name="quiz_04_answer_01">10 : 10</string>
     <string name="quiz_04_answer_02">02 : 10</string>
-    <string name="perfect">Perfect! </string>
+    <string name="perfect">Perfect!\n</string>
+
+    <string name="what_shape_comes_question">What shape comes next?</string>
+    <string name="heart_shape">Heart shape</string>
+    <string name="spade_shape">Spade shape</string>
 
     <string name="result">Result</string>
     <string name="result_o">O</string>

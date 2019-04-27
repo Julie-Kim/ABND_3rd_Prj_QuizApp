@@ -13,16 +13,16 @@
     <string name="quiz_09_dot">Q9.</string>
     <string name="quiz_10_dot">Q10.</string>
 
-    <string name="quiz_01">Q1</string>
-    <string name="quiz_02">Q2</string>
-    <string name="quiz_03">Q3</string>
-    <string name="quiz_04">Q4</string>
-    <string name="quiz_05">Q5</string>
-    <string name="quiz_06">Q6</string>
-    <string name="quiz_07">Q7</string>
-    <string name="quiz_08">Q8</string>
-    <string name="quiz_09">Q9</string>
-    <string name="quiz_10">Q10</string>
+    <string name="quiz_01">1</string>
+    <string name="quiz_02">2</string>
+    <string name="quiz_03">3</string>
+    <string name="quiz_04">4</string>
+    <string name="quiz_05">5</string>
+    <string name="quiz_06">6</string>
+    <string name="quiz_07">7</string>
+    <string name="quiz_08">8</string>
+    <string name="quiz_09">9</string>
+    <string name="quiz_10">10</string>
 
     <string name="submit">Submit</string>
     <string name="correct_number">Number of correct answer: %d</string>
@@ -51,10 +51,10 @@
     <string name="perfect">Perfect!\n</string>
 
     <string name="what_shape_comes_question">What shape comes next?</string>
-    <string name="heart_shape">Heart shape</string>
-    <string name="spade_shape">Spade shape</string>
 
     <string name="select_equal_parts">Select all the pictures that shows equal parts.</string>
+
+    <string name="which_group_has_more_question">Which group has more?</string>
 
     <string name="result">Result</string>
     <string name="result_o">O</string>

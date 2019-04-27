@@ -83,28 +83,17 @@
         <RadioButton
             android:id="@+id/q5_answer1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <ImageView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/answer_padding_start"
             android:layout_marginEnd="@dimen/answer_margin_end"
-            android:contentDescription="@string/heart_shape"
-            android:src="@drawable/heart_card" />
+            android:drawableEnd="@drawable/heart_card"
+            android:paddingStart="@dimen/answer_padding_start" />
 
         <RadioButton
             android:id="@+id/q5_answer2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <ImageView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/answer_padding_start"
-            android:layout_marginEnd="@dimen/answer_padding_start"
-            android:contentDescription="@string/spade_shape"
-            android:src="@drawable/spade_card" />
+            android:drawableEnd="@drawable/spade_card"
+            android:paddingStart="@dimen/answer_padding_start" />
 
     </RadioGroup>
 

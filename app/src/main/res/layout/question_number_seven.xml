@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/question_margin_bottom"
+    android:orientation="vertical">
+    <!--tools:showIn="@layout/activity_main">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/QuestionNumberText"
+            android:text="@string/quiz_07_dot" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/which_group_has_more_question" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/answer_margin_start_end"
+        android:layout_marginEnd="@dimen/answer_margin_start_end"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q7_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/answer_margin_top"
+            android:drawableEnd="@drawable/candy"
+            android:paddingStart="@dimen/answer_padding_start" />
+
+        <RadioButton
+            android:id="@+id/q7_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/answer_margin_top"
+            android:drawableEnd="@drawable/strawberry"
+            android:paddingStart="@dimen/answer_padding_start" />
+
+    </RadioGroup>
+
+</LinearLayout>

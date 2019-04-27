@@ -42,6 +42,22 @@
                 style="@style/TableQuizNumberText"
                 android:text="@string/quiz_06" />
 
+            <TextView
+                style="@style/TableQuizNumberText"
+                android:text="@string/quiz_07" />
+
+            <TextView
+                style="@style/TableQuizNumberText"
+                android:text="@string/quiz_08" />
+
+            <TextView
+                style="@style/TableQuizNumberText"
+                android:text="@string/quiz_09" />
+
+            <TextView
+                style="@style/TableQuizNumberText"
+                android:text="@string/quiz_10" />
+
         </TableRow>
 
         <TableRow>
@@ -73,6 +89,26 @@
 
             <TextView
                 android:id="@+id/result_06"
+                style="@style/TableQuizResultText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/result_07"
+                style="@style/TableQuizResultText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/result_08"
+                style="@style/TableQuizResultText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/result_09"
+                style="@style/TableQuizResultText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/result_10"
                 style="@style/TableQuizResultText"
                 android:text="" />
 

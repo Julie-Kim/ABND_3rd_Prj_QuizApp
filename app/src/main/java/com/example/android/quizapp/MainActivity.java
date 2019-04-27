@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int TOTAL_QUESTION_NUMBERS = 6;
+    private static final int TOTAL_QUESTION_NUMBERS = 10;
     private static final String QUESTION_NUMBER_2_ANSWER = "15";
 
     private SparseBooleanArray mQuizResult = new SparseBooleanArray();
@@ -78,6 +78,17 @@ public class MainActivity extends AppCompatActivity {
                         && ((CheckBox) findViewById(R.id.q6_answer4)).isChecked()
                         && !((CheckBox) findViewById(R.id.q6_answer2)).isChecked()
                         && !((CheckBox) findViewById(R.id.q6_answer3)).isChecked();
+
+            case 7:
+                radioButton = findViewById(R.id.q7_answer2);
+                return radioButton.isChecked();
+
+            case 8:
+
+            case 9:
+
+            case 10:
+
             default:
                 return false;
         }
@@ -90,6 +101,10 @@ public class MainActivity extends AppCompatActivity {
         mQuizResult.append(getArrayIndex(4), isCorrectAnswer(4));
         mQuizResult.append(getArrayIndex(5), isCorrectAnswer(5));
         mQuizResult.append(getArrayIndex(6), isCorrectAnswer(6));
+        mQuizResult.append(getArrayIndex(7), isCorrectAnswer(7));
+        mQuizResult.append(getArrayIndex(8), isCorrectAnswer(8));
+        mQuizResult.append(getArrayIndex(9), isCorrectAnswer(9));
+        mQuizResult.append(getArrayIndex(10), isCorrectAnswer(10));
 
         showResultMessage(getNumberOfCorrectAnswer());
         showResultTable();
@@ -138,6 +153,18 @@ public class MainActivity extends AppCompatActivity {
 
         TextView resultNumberSix = findViewById(R.id.result_06);
         resultNumberSix.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(6))));
+
+        TextView resultNumberSeven = findViewById(R.id.result_07);
+        resultNumberSeven.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(7))));
+
+        TextView resultNumberEight = findViewById(R.id.result_08);
+        resultNumberEight.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(8))));
+
+        TextView resultNumberNine = findViewById(R.id.result_09);
+        resultNumberNine.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(9))));
+
+        TextView resultNumberTen = findViewById(R.id.result_10);
+        resultNumberTen.setText(getResultTextResId(mQuizResult.valueAt(getArrayIndex(10))));
 
         findViewById(R.id.result_table).setVisibility(View.VISIBLE);
 

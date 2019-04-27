@@ -74,7 +74,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">@dimen/default_margin</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">@dimen/table_result_size</item>
+        <item name="android:textSize">@dimen/table_result_text_size</item>
         <item name="android:background">@color/table_result_background_color</item>
         <item name="android:textColor">@color/table_result_text_color</item>
         <item name="android:layout_margin">@dimen/table_column_margin</item>

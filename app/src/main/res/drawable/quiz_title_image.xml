@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:height="@dimen/quiz_letter_size"
+        android:width="@dimen/quiz_letter_size">
+        <bitmap android:src="@drawable/letter_q"/>
+    </item>
+
+    <item
+        android:height="@dimen/quiz_letter_size"
+        android:width="@dimen/quiz_letter_size"
+        android:start="@dimen/u_letter_margin_start">
+        <bitmap android:src="@drawable/letter_u"/>
+    </item>
+
+    <item
+        android:height="@dimen/quiz_letter_size"
+        android:width="@dimen/quiz_letter_size"
+        android:start="@dimen/i_letter_margin_start">
+        <bitmap android:src="@drawable/letter_i"/>
+    </item>
+
+    <item
+        android:height="@dimen/quiz_letter_size"
+        android:width="@dimen/quiz_letter_size"
+        android:start="@dimen/z_letter_margin_start">
+        <bitmap android:src="@drawable/letter_z"/>
+    </item>
+
+</layer-list>

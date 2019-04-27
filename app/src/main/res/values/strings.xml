@@ -56,6 +56,14 @@
 
     <string name="which_group_has_more_question">Which group has more?</string>
 
+    <string name="which_expression_question">Which expression describe the model?</string>
+    <string name="star_group">3 star groups</string>
+    <string name="quiz_08_answer_01">2 x 2</string>
+    <string name="quiz_08_answer_02">2 x 3</string>
+
+    <string name="which_number_question">Which number makes the equation true?</string>
+    <string name="quiz_09_expression"> + 8 = 14 + 6</string>
+
     <string name="result">Result</string>
     <string name="result_o">O</string>
     <string name="result_x">X</string>

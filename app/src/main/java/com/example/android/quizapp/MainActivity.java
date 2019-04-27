@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int TOTAL_QUESTION_NUMBERS = 10;
     private static final String QUESTION_NUMBER_2_ANSWER = "15";
+    private static final String QUESTION_NUMBER_9_ANSWER = "12";
 
     private SparseBooleanArray mQuizResult = new SparseBooleanArray();
 
@@ -84,8 +85,12 @@ public class MainActivity extends AppCompatActivity {
                 return radioButton.isChecked();
 
             case 8:
+                radioButton = findViewById(R.id.q8_answer2);
+                return radioButton.isChecked();
 
             case 9:
+                editText = findViewById(R.id.q9_answer_text);
+                return QUESTION_NUMBER_9_ANSWER.equals(editText.getText().toString());
 
             case 10:
 

@@ -14,37 +14,32 @@
 
         <TextView
             style="@style/QuestionNumberText"
-            android:text="@string/quiz_07_dot" />
+            android:text="@string/quiz_09_dot" />
 
         <TextView
             style="@style/QuestionText"
-            android:text="@string/which_group_has_more_question" />
+            android:text="@string/which_number_question" />
 
     </LinearLayout>
 
-    <RadioGroup
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/answer_margin_start_end"
-        android:layout_marginEnd="@dimen/answer_margin_start_end"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/q7_answer1"
+        <EditText
+            android:id="@+id/q9_answer_text"
+            android:layout_width="@dimen/number_edit_text_width"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="@dimen/answer_margin_start_end"
+            android:inputType="number" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/answer_margin_top"
-            android:drawableEnd="@drawable/candy"
-            android:paddingStart="@dimen/answer_padding_start" />
+            android:text="@string/quiz_09_expression" />
 
-        <RadioButton
-            android:id="@+id/q7_answer2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/answer_margin_top"
-            android:drawableEnd="@drawable/strawberry"
-            android:paddingStart="@dimen/answer_padding_start" />
-
-    </RadioGroup>
+    </LinearLayout>
 
 </LinearLayout>

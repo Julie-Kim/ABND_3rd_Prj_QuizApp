@@ -14,13 +14,22 @@
 
         <TextView
             style="@style/QuestionNumberText"
-            android:text="@string/quiz_07_dot" />
+            android:text="@string/quiz_08_dot" />
 
         <TextView
             style="@style/QuestionText"
-            android:text="@string/which_group_has_more_question" />
+            android:text="@string/which_expression_question" />
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/star_group_image_width"
+        android:layout_height="@dimen/star_group_image_height"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/star_group"
+        android:padding="@dimen/default_margin"
+        android:scaleType="centerInside"
+        android:src="@drawable/star_group" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -30,20 +39,14 @@
         android:orientation="vertical">
 
         <RadioButton
-            android:id="@+id/q7_answer1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/answer_margin_top"
-            android:drawableEnd="@drawable/candy"
-            android:paddingStart="@dimen/answer_padding_start" />
+            android:id="@+id/q8_answer1"
+            style="@style/AnswerText"
+            android:text="@string/quiz_08_answer_01" />
 
         <RadioButton
-            android:id="@+id/q7_answer2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/answer_margin_top"
-            android:drawableEnd="@drawable/strawberry"
-            android:paddingStart="@dimen/answer_padding_start" />
+            android:id="@+id/q8_answer2"
+            style="@style/AnswerText"
+            android:text="@string/quiz_08_answer_02" />
 
     </RadioGroup>
 

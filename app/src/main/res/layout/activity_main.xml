@@ -26,9 +26,9 @@
 
         <include layout="@layout/question_number_seven" />
 
-        <!--<include layout="@layout/question_number_eight" />-->
+        <include layout="@layout/question_number_eight" />
 
-        <!--<include layout="@layout/question_number_nine" />-->
+        <include layout="@layout/question_number_nine" />
 
         <!--<include layout="@layout/question_number_ten" />-->
 
